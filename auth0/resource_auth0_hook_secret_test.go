@@ -43,7 +43,7 @@ resource "auth0_hook_secret" "my_secret" {
 }
 `
 
-const testAccHookUpdate = `
+const testAccHookSecretUpdate = `
 
 resource "auth0_hook_secret" "my_secret" {
 	hook_id = "hook-id"
