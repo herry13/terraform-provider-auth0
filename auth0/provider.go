@@ -54,6 +54,7 @@ func init() {
 			"auth0_rule":            newRule(),
 			"auth0_rule_config":     newRuleConfig(),
 			"auth0_hook":            newHook(),
+			"auth0_hook_secret":     newHookSecret(),
 			"auth0_prompt":          newPrompt(),
 			"auth0_email":           newEmail(),
 			"auth0_email_template":  newEmailTemplate(),
